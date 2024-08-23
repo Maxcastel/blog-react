@@ -1,0 +1,16 @@
+{
+    "home": "Accueil",
+
+    "langues": {
+        "francais": "Français",
+        "anglais": "Anglais"
+    },
+
+    "article":{
+        "create": "Créer un article"
+    },
+
+    "comment":{
+        "title": "Commentaires"
+    }
+}
