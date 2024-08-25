@@ -18,5 +18,12 @@
 
     "comment":{
         "title": "Comments"
+    },
+
+    "footer":{
+        "contactme": "Contact me",
+        "seemycv": "See my CV",
+        "allrightsreserved": "All rights reserved.",
+        "followme": "Follow me"
     }
 }
