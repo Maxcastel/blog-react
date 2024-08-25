@@ -20,6 +20,34 @@
         "title": "Commentaires"
     },
 
+    "contact": {
+        "title": "Me Contacter",
+        "nom": "Nom :",
+        "email": "Email :",
+        "objet": "Objet :",
+        "from": "De :",
+        "message": "Message :",
+        "empty": {
+            "nom": "Le nom est requis",
+            "email": "L'email est requis",
+            "objet": "L'objet est requis",
+            "message": "Le message est requis"
+        },
+        "error": {
+            "nom": "Le nom doit contenir au moins 3 caractères",
+            "email": "L'email n'est pas valide",
+            "objet": "L'objet doit contenir au moins 5 caractères",
+            "message": "Le message doit contenir au moins 10 caractères"
+        },
+        "placeholder": {
+            "nom": "Saisissez votre nom...",
+            "objet": "Saisissez l'objet...",
+            "message": "Saisissez votre message ici..."
+        },
+        "btn": "Envoyer",
+        "seeBtn": "Voir"
+    },
+
     "footer":{
         "contactme": "Contactez-moi",
         "seemycv": "Voir mon CV",

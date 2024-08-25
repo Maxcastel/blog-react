@@ -20,6 +20,34 @@
         "title": "Comments"
     },
 
+    "contact": {
+        "title": "Contact Me",
+        "nom": "Name:",
+        "email": "Email:",
+        "objet": "Subject:",
+        "from": "From:",
+        "message": "Message:",
+        "empty": {
+            "nom": "Name is required",
+            "email": "Email is required",
+            "objet": "Subject is required",
+            "message": "Message is required"
+        },
+        "error": {
+            "nom": "Name must contain at least 5 characters",
+            "email": "Invalid email",
+            "objet": "Subject must contain at least 5 characters",
+            "message": "Message must contain at least 10 characters"
+        },
+        "placeholder": {
+            "nom": "Enter your name...",
+            "objet": "Enter the subject...",
+            "message": "Enter your message here..."
+        },
+        "btn": "Send",
+        "seeBtn": "See"
+    },
+
     "footer":{
         "contactme": "Contact me",
         "seemycv": "See my CV",
