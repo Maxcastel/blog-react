@@ -23,6 +23,7 @@
     "@radix-ui/react-toolbar": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
     "@udecode/cn": "^33.0.0",
+    "@udecode/plate-alignment": "^36.0.11",
     "@udecode/plate-basic-marks": "^36.0.0",
     "@udecode/plate-block-quote": "^36.0.0",
     "@udecode/plate-common": "^36.3.9",
