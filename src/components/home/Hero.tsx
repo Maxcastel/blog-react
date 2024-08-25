@@ -27,10 +27,10 @@ export function Hero(){
           <nav className="mb-6">
             <ul className="flex gap-x-6">
               <li>
-                <a href="/articles" className="hover:underline">Mon blog</a>
+                <a href="/articles" className="hover:underline">{t("hero.myblog")}</a>
               </li>
               <li>
-                <a href="#contact" className="hover:underline">Contactez-moi</a>
+                <a href="#contact" className="hover:underline">{t("hero.contactme")}</a>
               </li>
             </ul>
           </nav>
