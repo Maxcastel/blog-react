@@ -1,6 +1,12 @@
 {
     "home": "Accueil",
 
+    "hero":{
+        "phrase": "Passionné par le développement web, découvrez mes projets récents, mes dernières actualités et bien plus encore.",
+        "myblog": "Mon blog",
+        "contactme": "Contactez-moi"
+    },
+
     "langues": {
         "francais": "Français",
         "anglais": "Anglais"

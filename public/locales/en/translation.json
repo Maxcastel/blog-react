@@ -1,6 +1,12 @@
 {
     "home": "Home",
 
+    "hero":{
+        "phrase": "Passionate about web development, discover my recent projects, my latest news and much more.",
+        "myblog": "My blog",
+        "contactme": "Contact me"
+    },
+
     "langues": {
         "francais": "French",
         "anglais": "English"
