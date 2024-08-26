@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import CV from "../../assets/CV.pdf"
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 export function Hero(){
     const { t } = useTranslation();
@@ -27,10 +29,10 @@ export function Hero(){
           <nav className="mb-6">
             <ul className="flex gap-x-6">
               <li>
-                <a href="/articles" className="hover:underline">{t("hero.myblog")}</a>
+                <Link to="/articles" className="hover:underline">{t("hero.myblog")}</Link>
               </li>
               <li>
-                <a href="#contact" className="hover:underline">{t("hero.contactme")}</a>
+                <HashLink smooth to="#contact" className="hover:underline">{t("hero.contactme")}</HashLink>
               </li>
             </ul>
           </nav>
