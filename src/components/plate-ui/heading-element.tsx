@@ -6,10 +6,6 @@ import { cva } from 'class-variance-authority';
 
 const headingVariants = cva('', {
   variants: {
-    isFirstBlock: {
-      false: '',
-      true: 'mt-0',
-    },
     variant: {
       p: 'text-lg',
       h1: 'mb-1 mt-[2em] font-heading text-4xl font-bold',
@@ -18,6 +14,10 @@ const headingVariants = cva('', {
       h4: 'mt-[0.75em] font-heading text-lg font-semibold tracking-tight',
       h5: 'mt-[0.75em] text-lg font-semibold tracking-tight',
       h6: 'mt-[0.75em] text-base font-semibold tracking-tight',
+    },
+    isFirstBlock: {
+      false: '',
+      true: 'mt-0',
     },
   },
 });
