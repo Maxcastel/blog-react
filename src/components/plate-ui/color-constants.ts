@@ -408,29 +408,29 @@ export const DEFAULT_COLORS = [
 ];
 
 export const DEFAULT_CUSTOM_COLORS = [
-  {
-    isBrightColor: false,
-    name: 'dark orange 3',
-    value: '#783F04',
-  },
-  {
-    isBrightColor: false,
-    name: 'dark grey 3',
-    value: '#666666',
-  },
-  {
-    isBrightColor: false,
-    name: 'dark grey 2',
-    value: '#999999',
-  },
-  {
-    isBrightColor: false,
-    name: 'light cornflower blue 1',
-    value: '#6C9EEB',
-  },
-  {
-    isBrightColor: false,
-    name: 'dark magenta 3',
-    value: '#4C1130',
-  },
+  // {
+  //   isBrightColor: false,
+  //   name: 'dark orange 3',
+  //   value: '#783F04',
+  // },
+  // {
+  //   isBrightColor: false,
+  //   name: 'dark grey 3',
+  //   value: '#666666',
+  // },
+  // {
+  //   isBrightColor: false,
+  //   name: 'dark grey 2',
+  //   value: '#999999',
+  // },
+  // {
+  //   isBrightColor: false,
+  //   name: 'light cornflower blue 1',
+  //   value: '#6C9EEB',
+  // },
+  // {
+  //   isBrightColor: false,
+  //   name: 'dark magenta 3',
+  //   value: '#4C1130',
+  // },
 ];
