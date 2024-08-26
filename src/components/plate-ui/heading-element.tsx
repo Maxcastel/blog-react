@@ -11,6 +11,7 @@ const headingVariants = cva('', {
       true: 'mt-0',
     },
     variant: {
+      p: 'text-lg',
       h1: 'mb-1 mt-[2em] font-heading text-4xl font-bold',
       h2: 'mb-px mt-[1.4em] font-heading text-2xl font-semibold tracking-tight',
       h3: 'mb-px mt-[1em] font-heading text-xl font-semibold tracking-tight',
