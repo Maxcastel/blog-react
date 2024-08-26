@@ -1,6 +1,12 @@
 {
     "home": "Home",
 
+    "hero":{
+        "phrase": "Passionate about web development, discover my recent projects, my latest news and much more.",
+        "myblog": "My blog",
+        "contactme": "Contact me"
+    },
+
     "langues": {
         "francais": "French",
         "anglais": "English"
@@ -12,5 +18,144 @@
 
     "comment":{
         "title": "Comments"
+    },
+
+    "contact": {
+        "title": "Contact Me",
+        "nom": "Name:",
+        "email": "Email:",
+        "objet": "Subject:",
+        "from": "From:",
+        "message": "Message:",
+        "empty": {
+            "nom": "Name is required",
+            "email": "Email is required",
+            "objet": "Subject is required",
+            "message": "Message is required"
+        },
+        "error": {
+            "nom": "Name must contain at least 5 characters",
+            "email": "Invalid email",
+            "objet": "Subject must contain at least 5 characters",
+            "message": "Message must contain at least 10 characters"
+        },
+        "placeholder": {
+            "nom": "Enter your name...",
+            "objet": "Enter the subject...",
+            "message": "Enter your message here..."
+        },
+        "btn": "Send",
+        "seeBtn": "See"
+    },
+    
+    "editor":{
+        "placeholder":{
+            "p": "Type a paragraph"
+        },
+        "toolbar":{
+            "tooltip":{
+                "insert": "Insert",
+                "basicBlocks": "Basic blocks",
+                "paragraph": "Paragraph",
+                "heading": "Heading",
+                "turnInto": "Turn into",
+                "bold": "Bold (Ctrl+B)",
+                "italic": "Italic (Ctrl+I)",
+                "underline": "Underline (Ctrl+U)",
+                "strikethrough": "Strikethrough",
+                "textColor": "Text Color",
+                "highlight": "Couleur de surlignage",
+                "align": "Align"
+            }
+        },
+        "colors": {
+            "black": "black",
+            "dark_grey_4": "dark grey 4",
+            "dark_grey_3": "dark grey 3",
+            "dark_grey_2": "dark grey 2",
+            "dark_grey_1": "dark grey 1",
+            "grey": "grey",
+            "light_grey_1": "light grey 1",
+            "light_grey_2": "light grey 2",
+            "light_grey_3": "light grey 3",
+            "white": "white",
+            "red_berry": "red berry",
+            "red": "red",
+            "orange": "orange",
+            "yellow": "yellow",
+            "green": "green",
+            "cyan": "cyan",
+            "cornflower_blue": "cornflower blue",
+            "blue": "blue",
+            "purple": "purple",
+            "magenta": "magenta",
+            "light_red_berry_3": "light red berry 3",
+            "light_red_3": "light red 3",
+            "light_orange_3": "light orange 3",
+            "light_yellow_3": "light yellow 3",
+            "light_green_3": "light green 3",
+            "light_cyan_3": "light cyan 3",
+            "light_cornflower_blue_3": "light cornflower blue 3",
+            "light_blue_3": "light blue 3",
+            "light_purple_3": "light purple 3",
+            "light_magenta_3": "light magenta 3",
+            "light_red_berry_2": "light red berry 2",
+            "light_red_2": "light red 2",
+            "light_orange_2": "light orange 2",
+            "light_yellow_2": "light yellow 2",
+            "light_green_2": "light green 2",
+            "light_cyan_2": "light cyan 2",
+            "light_cornflower_blue_2": "light cornflower blue 2",
+            "light_blue_2": "light blue 2",
+            "light_purple_2": "light purple 2",
+            "light_magenta_2": "light magenta 2",
+            "light_red_berry_1": "light red berry 1",
+            "light_red_1": "light red 1",
+            "light_orange_1": "light orange 1",
+            "light_yellow_1": "light yellow 1",
+            "light_green_1": "light green 1",
+            "light_cyan_1": "light cyan 1",
+            "light_cornflower_blue_1": "light cornflower blue 1",
+            "light_blue_1": "light blue 1",
+            "light_purple_1": "light purple 1",
+            "light_magenta_1": "light magenta 1",
+            "dark_red_berry_1": "dark red berry 1",
+            "dark_red_1": "dark red 1",
+            "dark_orange_1": "dark orange 1",
+            "dark_yellow_1": "dark yellow 1",
+            "dark_green_1": "dark green 1",
+            "dark_cyan_1": "dark cyan 1",
+            "dark_cornflower_blue_1": "dark cornflower blue 1",
+            "dark_blue_1": "dark blue 1",
+            "dark_purple_1": "dark purple 1",
+            "dark_magenta_1": "dark magenta 1",
+            "dark_red_berry_2": "dark red berry 2",
+            "dark_red_2": "dark red 2",
+            "dark_orange_2": "dark orange 2",
+            "dark_yellow_2": "dark yellow 2",
+            "dark_green_2": "dark green 2",
+            "dark_cyan_2": "dark cyan 2",
+            "dark_cornflower_blue_2": "dark cornflower blue 2",
+            "dark_blue_2": "dark blue 2",
+            "dark_purple_2": "dark purple 2",
+            "dark_magenta_2": "dark magenta 2",
+            "dark_red_berry_3": "dark red berry 3",
+            "dark_red_3": "dark red 3",
+            "dark_orange_3": "dark orange 3",
+            "dark_yellow_3": "dark yellow 3",
+            "dark_green_3": "dark green 3",
+            "dark_cyan_3": "dark cyan 3",
+            "dark_cornflower_blue_3": "dark cornflower blue 3",
+            "dark_blue_3": "dark blue 3",
+            "dark_purple_3": "dark purple 3",
+            "dark_magenta_3": "dark magenta 3"
+        }
+    },
+
+    "footer":{
+        "contactme": "Contact me",
+        "seemycv": "See my CV",
+        "allrightsreserved": "All rights reserved.",
+        "followme": "Follow me"
     }
 }
