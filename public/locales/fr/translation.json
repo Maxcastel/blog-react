@@ -1,6 +1,12 @@
 {
     "home": "Accueil",
 
+    "hero":{
+        "phrase": "Passionné par le développement web, découvrez mes projets récents, mes dernières actualités et bien plus encore.",
+        "myblog": "Mon blog",
+        "contactme": "Contactez-moi"
+    },
+
     "langues": {
         "francais": "Français",
         "anglais": "Anglais"
@@ -12,5 +18,144 @@
 
     "comment":{
         "title": "Commentaires"
+    },
+
+    "contact": {
+        "title": "Me Contacter",
+        "nom": "Nom :",
+        "email": "Email :",
+        "objet": "Objet :",
+        "from": "De :",
+        "message": "Message :",
+        "empty": {
+            "nom": "Le nom est requis",
+            "email": "L'email est requis",
+            "objet": "L'objet est requis",
+            "message": "Le message est requis"
+        },
+        "error": {
+            "nom": "Le nom doit contenir au moins 3 caractères",
+            "email": "L'email n'est pas valide",
+            "objet": "L'objet doit contenir au moins 5 caractères",
+            "message": "Le message doit contenir au moins 10 caractères"
+        },
+        "placeholder": {
+            "nom": "Saisissez votre nom...",
+            "objet": "Saisissez l'objet...",
+            "message": "Saisissez votre message ici..."
+        },
+        "btn": "Envoyer",
+        "seeBtn": "Voir"
+    },
+
+    "editor":{
+        "placeholder":{
+            "p": "Saisir un paragraphe"
+        },
+        "toolbar":{
+            "tooltip":{
+                "insert": "Insérer",
+                "basicBlocks": "Blocs de base",
+                "paragraph": "Paragraphe",
+                "heading": "Titre",
+                "turnInto": "Transformer en",
+                "bold": "Gras (Ctrl+B)",
+                "italic": "Italique (Ctrl+I)",
+                "underline": "Soulignage (Ctrl+U)",
+                "strikethrough": "Barré",
+                "textColor": "Couleur du texte",
+                "highlight": "Couleur de surlignage",
+                "align": "Alignment"
+            }
+        },
+        "colors": {
+            "black": "noir",
+            "dark_grey_4": "gris foncé 4",
+            "dark_grey_3": "gris foncé 3",
+            "dark_grey_2": "gris foncé 2",
+            "dark_grey_1": "gris foncé 1",
+            "grey": "gris",
+            "light_grey_1": "gris clair 1",
+            "light_grey_2": "gris clair 2",
+            "light_grey_3": "gris clair 3",
+            "white": "blanc",
+            "red_berry": "rouge baie",
+            "red": "rouge",
+            "orange": "orange",
+            "yellow": "jaune",
+            "green": "vert",
+            "cyan": "cyan",
+            "cornflower_blue": "bleu bleuet",
+            "blue": "bleu",
+            "purple": "violet",
+            "magenta": "magenta",
+            "light_red_berry_3": "rouge baie clair 3",
+            "light_red_3": "rouge clair 3",
+            "light_orange_3": "orange clair 3",
+            "light_yellow_3": "jaune clair 3",
+            "light_green_3": "vert clair 3",
+            "light_cyan_3": "cyan clair 3",
+            "light_cornflower_blue_3": "bleu bleuet clair 3",
+            "light_blue_3": "bleu clair 3",
+            "light_purple_3": "violet clair 3",
+            "light_magenta_3": "magenta clair 3",
+            "light_red_berry_2": "rouge baie clair 2",
+            "light_red_2": "rouge clair 2",
+            "light_orange_2": "orange clair 2",
+            "light_yellow_2": "jaune clair 2",
+            "light_green_2": "vert clair 2",
+            "light_cyan_2": "cyan clair 2",
+            "light_cornflower_blue_2": "bleu bleuet clair 2",
+            "light_blue_2": "bleu clair 2",
+            "light_purple_2": "violet clair 2",
+            "light_magenta_2": "magenta clair 2",
+            "light_red_berry_1": "rouge baie clair 1",
+            "light_red_1": "rouge clair 1",
+            "light_orange_1": "orange clair 1",
+            "light_yellow_1": "jaune clair 1",
+            "light_green_1": "vert clair 1",
+            "light_cyan_1": "cyan clair 1",
+            "light_cornflower_blue_1": "bleu bleuet clair 1",
+            "light_blue_1": "bleu clair 1",
+            "light_purple_1": "violet clair 1",
+            "light_magenta_1": "magenta clair 1",
+            "dark_red_berry_1": "rouge baie foncé 1",
+            "dark_red_1": "rouge foncé 1",
+            "dark_orange_1": "orange foncé 1",
+            "dark_yellow_1": "jaune foncé 1",
+            "dark_green_1": "vert foncé 1",
+            "dark_cyan_1": "cyan foncé 1",
+            "dark_cornflower_blue_1": "bleu bleuet foncé 1",
+            "dark_blue_1": "bleu foncé 1",
+            "dark_purple_1": "violet foncé 1",
+            "dark_magenta_1": "magenta foncé 1",
+            "dark_red_berry_2": "rouge baie foncé 2",
+            "dark_red_2": "rouge foncé 2",
+            "dark_orange_2": "orange foncé 2",
+            "dark_yellow_2": "jaune foncé 2",
+            "dark_green_2": "vert foncé 2",
+            "dark_cyan_2": "cyan foncé 2",
+            "dark_cornflower_blue_2": "bleu bleuet foncé 2",
+            "dark_blue_2": "bleu foncé 2",
+            "dark_purple_2": "violet foncé 2",
+            "dark_magenta_2": "magenta foncé 2",
+            "dark_red_berry_3": "rouge baie foncé 3",
+            "dark_red_3": "rouge foncé 3",
+            "dark_orange_3": "orange foncé 3",
+            "dark_yellow_3": "jaune foncé 3",
+            "dark_green_3": "vert foncé 3",
+            "dark_cyan_3": "cyan foncé 3",
+            "dark_cornflower_blue_3": "bleu bleuet foncé 3",
+            "dark_blue_3": "bleu foncé 3",
+            "dark_purple_3": "violet foncé 3",
+            "dark_magenta_3": "magenta foncé 3"
+        }
+    },
+
+    "footer":{
+        "contactme": "Contactez-moi",
+        "seemycv": "Voir mon CV",
+        "allrightsreserved": "Tous droits réservés.",
+        "followme": "Suivez-moi"
     }
 }
