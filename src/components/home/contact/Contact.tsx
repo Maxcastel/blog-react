@@ -8,7 +8,7 @@ export function Contact(){
 
     return (
         <section className="flex flex-col pb-[20vh]" id="contact">
-            <h2 className="text-center text-4xl font-bold my-10">
+            <h2 className="text-center text-3xl font-bold my-10">
                 {t('contact.title')}
             </h2>
 
