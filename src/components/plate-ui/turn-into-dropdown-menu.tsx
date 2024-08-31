@@ -2,7 +2,6 @@ import React from 'react';
 
 import type { DropdownMenuProps } from '@radix-ui/react-dropdown-menu';
 
-import { ELEMENT_BLOCKQUOTE } from '@udecode/plate-block-quote';
 import {
   collapseSelection,
   focusEditor,
@@ -52,12 +51,6 @@ const items = [
     icon: Icons.h3,
     label: 'Heading 3',
     value: ELEMENT_H3,
-  },
-  {
-    description: 'Quote (⌘+⇧+.)',
-    icon: Icons.blockquote,
-    label: 'Quote',
-    value: ELEMENT_BLOCKQUOTE,
   },
   // {
   //   value: 'ul',
