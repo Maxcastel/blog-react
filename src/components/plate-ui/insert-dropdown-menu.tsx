@@ -106,7 +106,7 @@ export function InsertDropdownMenu(props: DropdownMenuProps) {
         //   icon: Icons.hr,
         // },
       ],
-      label: 'Basic blocks',
+      label: t('editor.toolbar.tooltip.basicBlocks'),
     },
     // {
     //   label: 'Media',
