@@ -14,8 +14,10 @@ import { Icons } from '@/components/icons';
 import { MarkToolbarButton } from './mark-toolbar-button';
 import { MoreDropdownMenu } from './more-dropdown-menu';
 import { TurnIntoDropdownMenu } from './turn-into-dropdown-menu';
+import { useTranslation } from 'react-i18next';
 
 export function FloatingToolbarButtons() {
+  const { t } = useTranslation();
   const readOnly = useEditorReadOnly();
 
   return (
@@ -24,31 +26,27 @@ export function FloatingToolbarButtons() {
         <>
           <TurnIntoDropdownMenu />
 
-          <MarkToolbarButton nodeType={MARK_BOLD} tooltip="Bold (⌘+B)">
+          <MarkToolbarButton nodeType={MARK_BOLD} tooltip={t('editor.toolbar.tooltip.bold')}>
             <Icons.bold />
           </MarkToolbarButton>
-          <MarkToolbarButton nodeType={MARK_ITALIC} tooltip="Italic (⌘+I)">
+          <MarkToolbarButton nodeType={MARK_ITALIC} tooltip={t('editor.toolbar.tooltip.italic')}>
             <Icons.italic />
           </MarkToolbarButton>
           <MarkToolbarButton
             nodeType={MARK_UNDERLINE}
-            tooltip="Underline (⌘+U)"
+            tooltip={t('editor.toolbar.tooltip.underline')}
           >
             <Icons.underline />
           </MarkToolbarButton>
           <MarkToolbarButton
             nodeType={MARK_STRIKETHROUGH}
-            tooltip="Strikethrough (⌘+⇧+M)"
+            tooltip={t('editor.toolbar.tooltip.strikethrough')}
           >
             <Icons.strikethrough />
           </MarkToolbarButton>
-          <MarkToolbarButton nodeType={MARK_CODE} tooltip="Code (⌘+E)">
-            <Icons.code />
-          </MarkToolbarButton>
         </>
       )}
-
-      <MoreDropdownMenu />
+      
     </>
   );
 }
