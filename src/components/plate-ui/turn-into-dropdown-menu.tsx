@@ -140,7 +140,7 @@ export function TurnIntoDropdownMenu(props: DropdownMenuProps) {
       </DropdownMenuTrigger>
 
       <DropdownMenuContent align="start" className="min-w-0">
-        <DropdownMenuLabel>Turn into</DropdownMenuLabel>
+        <DropdownMenuLabel>{t('editor.toolbar.tooltip.turnInto')}</DropdownMenuLabel>
 
         <DropdownMenuRadioGroup
           className="flex flex-col gap-0.5"
