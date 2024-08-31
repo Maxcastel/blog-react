@@ -4,6 +4,8 @@ import { Test } from './components/Test'
 import { ThemeProvider } from './components/theme-provider'
 import { LayoutAdmin } from './components/admin/layout/LayoutAdmin'
 import { Home } from './components/home/Home'
+import { Articles } from './components/article/Articles'
+import { ShowArticle } from './components/article/ShowArticle'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
+            <Route path="/articles" element={<Articles />} />
+            <Route path="/articles/:link" element={<ShowArticle />} />
           </Route>
           <Route element={<LayoutAdmin />}>
             <Route path="/a" element={<Test />} />
