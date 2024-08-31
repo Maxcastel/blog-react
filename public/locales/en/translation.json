@@ -13,11 +13,32 @@
     },
 
     "article":{
-        "create": "Create an article"
+        "create": "Create an article",
+        "published": "Published on {{date}} at {{time}}",
+        "published_same_day": "Published today at {{time}}",
+        "edited": "Edited on {{date}} at {{time}}",
+        "edited_same_day": "Edited at {{time}}",
+        "show":{
+            "edited": "edited on {{date}} at {{time}}",
+            "edited_same_day": "edited at {{time}}"
+        },
+        "read_more": "Read more",
+        "author": "Author:",
+        "lastUpdate": "Last update:"
     },
 
     "comment":{
-        "title": "Comments"
+        "title": "Comments",
+        "noComment": "No comment for the moment. Be the first to comment!",
+        "add": "Add a comment",
+        "yourComment": "Your comment",
+        "posted": "Posted on {{date}} at {{time}}",
+        "editor":{  
+            "empty": "The content is required",
+            "error": "The content must contain at least 2 characters"
+        },
+        "sendingMessage": "Your comment has been added successfully! It is waiting for validation.",
+        "sendingError": "An error occurred when adding the comment."
     },
 
     "contact": {

@@ -13,11 +13,32 @@
     },
 
     "article":{
-        "create": "Créer un article"
+        "create": "Créer un article",
+        "published": "Publié le {{date}} à {{time}}",
+        "published_same_day": "Publié aujourd'hui à {{time}}",
+        "edited": "Modifié le {{date}} à {{time}}",
+        "edited_same_day": "Modifié à {{time}}",
+        "show":{
+            "edited": "modifié le {{date}} à {{time}}",
+            "edited_same_day": "modifié à {{time}}"
+        },
+        "read_more": "Lire la suite",
+        "author": "Auteur :",
+        "lastUpdate": "Dernière modification :"
     },
 
     "comment":{
-        "title": "Commentaires"
+        "title": "Commentaires",
+        "noComment": "Aucun commentaire pour le moment. Soyez le premier à commenter !",
+        "add": "Ajouter un commentaire",
+        "yourComment": "Votre commentaire",
+        "posted": "Posté le {{date}} à {{time}}",
+        "editor":{
+            "empty": "Le contenu est requis",
+            "error": "Le contenu doit contenir au moins 2 caractères"
+        },
+        "sendingMessage": "Votre commentaire a été ajouté avec succès ! Il est en attente de validation.",
+        "sendingError": "Une erreur est survenue lors de l'ajout du commentaire."
     },
 
     "contact": {
