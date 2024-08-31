@@ -24,7 +24,55 @@
         },
         "read_more": "Read more",
         "author": "Author:",
-        "lastUpdate": "Last update:"
+        "lastUpdate": "Last update:",
+        "createOrEdit":{
+            "create": "Create an article",
+            "createBtn": "Create",
+            "edit": "Edit article {{title}}",
+            "editBtn": "Edit",
+            "title": "Title:",
+            "description": "Description:",
+            "content": "Content:",
+            "imageUrl": "Image:",
+            "author": "Author:",
+            "json": "Json:",
+            "preview": "Preview:",
+            "empty":{
+                "title": "The title is required",
+                "description": "The description is required",
+                "content": "The content is required",
+                "imageUrl": "The image is required"
+            },
+            "error":{
+                "title": "The title must contain at least 5 characters",
+                "description": "The description must contain at least 5 characters",
+                "content": "The content must contain at least 10 characters",
+                "imageUrl": "The url is not valid",
+                "image": "The image is not valid"
+            },
+            "placeholder":{
+                "title": "Title of the article",
+                "description": "Description of the article",
+                "content": "Content of the article",
+                "imageUrl": "Url of the image"
+            },
+            "createToast":{
+                "success":{
+                    "title": "Article created successfully"
+                },
+                "error":{
+                    "title": "An error occurred when creating the article"
+                }
+            },
+            "editToast":{
+                "success":{
+                    "title": "Article edited successfully"
+                },
+                "error":{
+                    "title": "An error occurred when editing the article"
+                }
+            }
+        }
     },
 
     "comment":{

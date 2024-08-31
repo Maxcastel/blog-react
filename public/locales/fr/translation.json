@@ -24,7 +24,55 @@
         },
         "read_more": "Lire la suite",
         "author": "Auteur :",
-        "lastUpdate": "Dernière modification :"
+        "lastUpdate": "Dernière modification :",
+        "createOrEdit":{
+            "create": "Créer un article",
+            "createBtn": "Créer",
+            "edit": "Modifier l'article {{title}}",
+            "editBtn": "Modifier",
+            "title": "Titre :",
+            "description": "Description :",
+            "content": "Contenu :",
+            "imageUrl": "Image :",
+            "author": "Auteur :",
+            "json": "Json :",
+            "preview": "Prévisualisation :",
+            "empty":{
+                "title": "Le titre est requis",
+                "description": "La description est requise",
+                "content": "Le contenu est requis",
+                "imageUrl": "L'image est requise"
+            },
+            "error":{
+                "title": "Le titre doit contenir au moins 5 caractères",
+                "description": "La description doit contenir au moins 5 caractères",
+                "content": "Le contenu doit contenir au moins 10 caractères",
+                "imageUrl": "L'url n'est pas valide",
+                "image": "L'image n'est pas valide"
+            },
+            "placeholder":{
+                "title": "Titre de l'article",
+                "description": "Description de l'article",
+                "content": "Contenu de l'article",
+                "imageUrl": "Url de l'image"
+            },
+            "createToast":{
+                "success":{
+                    "title": "Article créé avec succès"
+                },
+                "error":{
+                    "title": "Erreur lors de la création de l'article"
+                }
+            },
+            "editToast":{
+                "success":{
+                    "title": "Article modifié avec succès"
+                },
+                "error":{
+                    "title": "Erreur lors de la modification de l'article"
+                }
+            }
+        }
     },
 
     "comment":{
