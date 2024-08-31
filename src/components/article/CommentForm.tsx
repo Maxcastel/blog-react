@@ -29,7 +29,11 @@ export function CommentForm({article}:{article: Article}){
 
     const formSchema = z.object({
         content: z
-            .string({required_error: t('comment.editor.empty')})
+            .string()
+            .refine(value => {
+                const textContent = extractTextFromContent(value);
+                return textContent.length >= 1;
+            }, {message: t('comment.editor.empty')})
             .refine(value => {
                 const textContent = extractTextFromContent(value);
                 return textContent.length >= 2;
