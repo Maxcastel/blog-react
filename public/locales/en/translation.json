@@ -88,7 +88,7 @@
                 "insert": "Insert",
                 "basicBlocks": "Basic blocks",
                 "paragraph": "Paragraph",
-                "heading": "Heading",
+                "heading": "Heading {{level}}",
                 "turnInto": "Turn into",
                 "bold": "Bold (Ctrl+B)",
                 "italic": "Italic (Ctrl+I)",

@@ -88,7 +88,7 @@
                 "insert": "Insérer",
                 "basicBlocks": "Blocs de base",
                 "paragraph": "Paragraphe",
-                "heading": "Titre",
+                "heading": "Titre {{level}}",
                 "turnInto": "Transformer en",
                 "bold": "Gras (Ctrl+B)",
                 "italic": "Italique (Ctrl+I)",
