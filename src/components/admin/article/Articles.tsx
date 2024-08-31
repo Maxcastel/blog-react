@@ -26,7 +26,7 @@ export function Articles(){
                 </h1>
 
                 <Button asChild>
-                    <a href="/article/create">
+                    <a href="/admin/articles/create">
                         {t("articleTable.createArticle")}
                         <Icons.add className="ml-2 h-4 w-4" />
                     </a>
