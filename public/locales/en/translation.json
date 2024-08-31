@@ -95,7 +95,7 @@
                 "underline": "Underline (Ctrl+U)",
                 "strikethrough": "Strikethrough",
                 "textColor": "Text Color",
-                "highlight": "Couleur de surlignage",
+                "highlight": "Highlight Color",
                 "align": "Align"
             }
         },
