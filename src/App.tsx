@@ -23,6 +23,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="articles" element={<ArticlesAdmin />} />
             <Route path="articles/create" element={<CreateArticle />} />
+            <Route path="articles/:link" element={<ShowArticle />} />
           </Route> 
         </Routes>
       </BrowserRouter>
