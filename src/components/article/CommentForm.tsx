@@ -20,10 +20,12 @@ import { Loader2 } from "lucide-react"
 import { renderToString } from 'react-dom/server';
 import { CommentEditor } from "./CommentEditor";
 import { Article } from "@/models/Article";
+import { useExtractTextFromContent } from "@/hooks/useExtractTextFromContent";
 
 export function CommentForm({article}:{article: Article}){
     const [loading, setLoading] = useState<boolean>(false);
     const { t } = useTranslation();
+    const { extractTextFromContent } = useExtractTextFromContent();
 
     const formSchema = z.object({
         content: z
@@ -66,27 +68,6 @@ export function CommentForm({article}:{article: Article}){
             }
         })
         .catch(() => toast.error(t('comment.sendingError')))
-    }
-
-    function extractTextFromContent(contentJson: string): string {
-        let text = '';
-    
-        const content = JSON.parse(contentJson);
-
-        function traverse(node: any) {
-            if (node.text) {
-                text += node.text;
-            }
-            if (node.children && Array.isArray(node.children)) {
-                node.children.forEach(traverse);
-            }
-        }
-
-        if (Array.isArray(content)) {
-            content.forEach(traverse);
-        }
-    
-        return text;
     }
 
     return (
