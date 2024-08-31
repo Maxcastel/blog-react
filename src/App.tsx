@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Layout } from './components/layout/Layout'
-import { Test } from './components/Test'
 import { ThemeProvider } from './components/theme-provider'
 import { LayoutAdmin } from './components/admin/layout/LayoutAdmin'
 import { Home } from './components/home/Home'
 import { Articles } from './components/article/Articles'
 import { ShowArticle } from './components/article/ShowArticle'
+import { Articles as ArticlesAdmin } from './components/admin/article/Articles'
 
 function App() {
 
@@ -18,9 +18,10 @@ function App() {
             <Route path="/articles" element={<Articles />} />
             <Route path="/articles/:link" element={<ShowArticle />} />
           </Route>
-          <Route element={<LayoutAdmin />}>
-            <Route path="/a" element={<Test />} />
-          </Route>
+          <Route path="/admin" element={<LayoutAdmin />}>
+            <Route index element={<Home />} />
+            <Route path="articles" element={<ArticlesAdmin />} />
+          </Route> 
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
