@@ -62,7 +62,7 @@ export function ArticleTable({articles}:{articles: Article[]}){
                         </TableCell>
                         <TableCell className="text-right">
                             <div className="flex gap-2.5">
-                                <Link to={`/articles/${article.link}`} >
+                                <Link to={`/admin/articles/${article.link}`} >
                                     <Icons.viewing className="h-6 w-6 text-blue-700 hover:text-blue-800 cursor-pointer" />
                                 </Link>
                                 <Link to={`/admin/articles/${article.id}/edit`}>
