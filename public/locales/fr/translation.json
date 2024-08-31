@@ -41,6 +41,16 @@
         "sendingError": "Une erreur est survenue lors de l'ajout du commentaire."
     },
 
+    "articleTable": {
+        "title": "Titre",
+        "author": "Auteur",
+        "creationDate": "Date de création",
+        "editDate": "Date de modification",
+        "comment": "Commentaires",
+        "createArticle": "Créer un article",
+        "noUpdate": "Aucune modification"
+    },
+
     "contact": {
         "title": "Me Contacter",
         "nom": "Nom :",

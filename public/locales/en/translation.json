@@ -41,6 +41,16 @@
         "sendingError": "An error occurred when adding the comment."
     },
 
+    "articleTable": {
+        "title": "Title",
+        "author": "Author",
+        "creationDate": "Creation date",
+        "editDate": "Edit date",
+        "comment": "Comments",
+        "createArticle": "Create an article",
+        "noUpdate": "No update"
+    },
+
     "contact": {
         "title": "Contact Me",
         "nom": "Name:",
