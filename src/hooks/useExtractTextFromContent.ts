@@ -4,6 +4,10 @@ export function useExtractTextFromContent() {
     const extractTextFromContent = useCallback((contentJson: string): string => {
         let text = '';
 
+        if (!contentJson) {
+            return text;
+        }
+        
         const content = JSON.parse(contentJson);
 
         function traverse(node: any) {
