@@ -13,7 +13,7 @@ export function HeaderAdmin(){
     const navigation = [
         { name: t('home'), href: '/' },
         { name: "Articles", href: '/admin/articles' },
-        { name: t('article.create'), href: '/article/create' },
+        { name: t('article.create'), href: '/admin/articles/create' },
         { name: t('comment.title'), href: '/admin/comments' },
         { name: "Emails", href: '/admin/emails' },
     ]
