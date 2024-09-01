@@ -7,6 +7,7 @@ import { Articles } from './components/article/Articles'
 import { ShowArticle } from './components/article/ShowArticle'
 import { Articles as ArticlesAdmin } from './components/admin/article/Articles'
 import { CreateArticle } from './components/admin/article/CreateArticle'
+import { EditArticle } from './components/admin/article/EditArticle'
 
 function App() {
 
@@ -22,8 +23,9 @@ function App() {
           <Route path="/admin" element={<LayoutAdmin />}>
             <Route index element={<Home />} />
             <Route path="articles" element={<ArticlesAdmin />} />
-            <Route path="articles/create" element={<CreateArticle />} />
             <Route path="articles/:link" element={<ShowArticle />} />
+            <Route path="articles/create" element={<CreateArticle />} />
+            <Route path="articles/:id/edit" element={<EditArticle />} />
           </Route> 
         </Routes>
       </BrowserRouter>
