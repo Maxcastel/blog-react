@@ -23,6 +23,7 @@ import { Loader2 } from "lucide-react"
 import { useState } from "react";
 import { ArticleEditor } from "./ArticleEditor";
 import { useExtractTextFromContent } from "@/hooks/useExtractTextFromContent";
+import { useIsValidImageUrl } from "@/hooks/useIsValidImageUrl";
 
 const initialValue = [
     {
@@ -42,6 +43,7 @@ export function CreateArticle(){
     const [loading, setLoading] = useState<boolean>(false);
     const [contentJson, setContentJson, contentHtml] = useEditor(initialValue);
     const { extractTextFromContent } = useExtractTextFromContent();
+    const { isValidImageUrl } = useIsValidImageUrl();
 
     const formSchema = z.object({
         title: z
@@ -81,15 +83,6 @@ export function CreateArticle(){
           imageUrl: "",
         },
     })
-
-    async function isValidImageUrl(url:string) {
-        return new Promise((resolve) => {
-          const img = new Image();
-          img.onload = () => resolve(true);
-          img.onerror = () => resolve(false);
-          img.src = url;
-        });
-      }
 
     function onSubmit(data: z.infer<typeof formSchema>) {
         console.log("data",data)
