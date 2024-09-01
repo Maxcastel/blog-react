@@ -19,6 +19,9 @@ export function ArticleTable({articles}:{articles: Article[]}){
     const deleteArticle = (id:number) => {
         fetch(`http://api.blog.mcastel.fr/api/articles/${id}`, { 
             method: 'DELETE',
+            headers: {
+                'Authorization': `Bearer ${window.localStorage.getItem('token')}`
+            }
         })
         .then(res => res.json())
         .then(response => {
